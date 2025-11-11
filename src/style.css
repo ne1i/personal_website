@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  cursor: url("assets/cursor/skyrim_cursor.cur") 0 0, auto;
+}
+
+@font-face {
+  font-family: "Cardo";
+  src: url("assets/fonts/Cardo/Cardo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-cardo {
+  font-family: "Cardo", serif;
+}
+
+@font-face {
+  font-family: "Balgruf";
+  src: url("assets/fonts/Balgruf/Balgruf.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-balgruf {
+  font-family: "Balgruf", serif;
+}
