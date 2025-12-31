@@ -9,14 +9,18 @@
 </script>
 
 <div
-	class="my-2 bg-linear-to-r from-blue-800 to-blue-950 py-2 font-serif mb-6 text-shadow-2xs border-2 border-pink-600"
+	class="my-2 border-2 py-1 border-[#4c7797] bg-[#285577] font-mono font-bold mb-6 text-shadow-2xs"
 >
-	<h1 class="text-center text-3xl">Bienvenue sur mon site</h1>
+	<h1 class="text-center text-3xl space-x-8">
+		<img class="inline-block h-[1.5em]" src="/under_construction.gif" alt="Under construction" />
+		<a class="hover:underline" href="/">
+			<span> ~/Projects/aubetoile.dev </span>
+		</a>
+		<img class="inline-block h-[1.5em]" src="/under_construction.gif" alt="Under construction" />
+	</h1>
 </div>
 
-<section class="flex justify-center mb-2">
-	<img class="block" src="/under_construction.gif" alt="Under construction" />
-</section>
+<section class="flex justify-center mb-2"></section>
 
 <section class="font-serif">
 	<h2 class="text-3xl mb-2">
@@ -57,6 +61,9 @@
 	</div>
 </div>
 
-<p class="font-bold italic font-serif">
-	Valentin's Own Code Editor (Copyright {new Date().getFullYear()})
-</p>
+<p class="font-bold italic font-serif">Valentin's Custom Code Editor (VCCE)</p>
+
+<footer class="text-sm font-serif font-bold italic">
+	(C) {new Date().getFullYear()} -
+	<a class="underline" href="https://aubetoile.dev">aubetoile.dev</a>
+</footer>
